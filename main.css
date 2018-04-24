@@ -7,7 +7,7 @@ body {
     background-color: rgb(251, 229, 214);
 }
 
-h2, p, li {
+h2, p, li, a {
     font-family: Calibri;
     margin: 0;
 }
@@ -24,14 +24,15 @@ h2, p, li {
 /*-------------------------------------------------*/
 
 .header {
-    display: grid;
+    position: relative;
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 230px;
+    grid-template-rows: 230px; */
 }
 
-
 .header img {
-    display: inline-block;
+    display: block;
+    margin: auto;
     width: 372px;
     height: 230px;
 }
@@ -40,7 +41,7 @@ h2, p, li {
     position: relative;
     display: inline-block;
     list-style: none;
-    padding: 100px 0px 100px 0px;
+    /* padding: 100px 0px 100px 0px; */
     margin: 0;
 }
 
@@ -50,25 +51,55 @@ h2, p, li {
     font-size: 23px;
 }
 
+.header a {
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+    top: 101px;
+}
+
+.about {
+    left: 108px;
+}
+
+.contact {
+    left: 220px;
+}
+
+.menu {
+    right: 243px;
+}
+
+.orders {
+    right: 125px;
+}
+
+.gallery {
+    right: 0px;
+}
+
 .nav-bar a {
     color: black;
     text-decoration: none;
+    list-style: none;
 }
 
 .nav-bar.nav-left {
-    justify-self: baseline;
+    /* justify-self: baseline; */
 }
 
 .nav-bar.nav-left .left {
-    margin-right: 39px;
+    /* margin-right: 39px; */
 }
 
 .nav-bar.nav-right {
-    justify-self: end;
+    /* justify-self: end; */
 }
 
 .nav-bar.nav-right .right {
-    margin-left: 37px;
+    /* margin-left: 37px; */
 }
 
 .hvr-change-color:hover {
