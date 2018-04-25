@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+body {
+    background-color: rgb(251, 229, 214);
+}
+
+h2, p, li, a {
+    font-family: Calibri;
+    margin: 0;
+}
+
+.blue-background {
+    background-color: rgb(157, 195, 230);
+}
+
+.wrapper {
+    margin: 0px auto;
+    width: 984px;
+}
+
+/*-------------------------------------------------*/
+
+.header {
+    position: relative;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 230px; */
+}
+
+.header img {
+    display: block;
+    margin: auto;
+    width: 372px;
+    height: 230px;
+}
+
+.nav-bar {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    /* padding: 100px 0px 100px 0px; */
+    margin: 0;
+}
+
+.nav-bar li {
+    display: inline;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.header a {
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+    top: 101px;
+}
+
+.about {
+    left: 108px;
+}
+
+.contact {
+    left: 220px;
+}
+
+.menu {
+    right: 243px;
+}
+
+.orders {
+    right: 125px;
+}
+
+.gallery {
+    right: 0px;
+}
+
+.nav-bar a {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+.hvr-change-color:hover {
+    color: rgb(58, 183, 169);
+}
+
+/*------------------------------------------CONTENT　HERE--------------------------------------------------------------------------*/
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 3fr 1fr;
+    grid-row-gap: 25px;
+}
+
+.location, .opening-hours, .social-media, .contact {
+    font-family: Calibri;
+    display: inline-block;
+    width: 124px;
+}
+
+.social-media {
+    width: 77px;
+}
+
+.location{
+    justify-self: right;
+    margin-right: 14px;
+}
+
+.opening-hours {
+    justify-self: center;
+    margin-left: 50px;
+    margin-right: 14px;
+}
+
+.social-media {
+    justify-self: center;
+    margin-right: 34px;
+}
+
+.contact{
+    justify-self: left;
+    margin-right: 14px;
+}
+
+.page-end {
+    grid-column: 1/4;
+}
+
+.h-line {
+    height: 1px;
+    width: 984px;
+    background-color: rgb(251, 229, 214);
+}
+
+.copyright {
+    width: 984px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+} 
