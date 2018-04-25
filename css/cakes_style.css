@@ -1,0 +1,75 @@
+/**************************
+        cakes page
+***************************/
+
+.content {
+    width: 100%;
+    margin: 30px 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background: white;
+    text-align: center;    
+}
+
+.content h1 {
+    font-size: 25px;
+    font-weight: normal;
+    color: #67bdc7;
+}
+
+.content .head_line {
+    width: 60px;
+    height: 2px;
+    margin: 20px auto;
+    background: #67bdc7;
+}
+
+.content>p {
+    margin-bottom: 40px;
+}
+
+.content p {
+    color: #68391a;
+}
+
+
+.item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.item:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.item li {
+    width: calc(33% - 30px);
+    height: 380px;
+    margin: 15px;
+    margin-bottom: 50px;
+    float: left;
+    
+    text-align: center;
+}
+
+.item li img {
+    width: 200px;
+    height: 200px;
+}
+.item li h5 {
+    font-size: 18px;
+}
+.item li div {
+    width: 200px;
+    height: 2px;
+    margin: 20px auto;
+    background: #68391a;
+}
+.item li p {}
+.item li p.price {
+    margin-top: 30px;
+    font-size: 18px;
+}
