@@ -7,7 +7,7 @@ body {
     background-color: rgb(251, 229, 214);
 }
 
-h2, p, li, a {
+h1, h2, p, li, a {
     font-family: Calibri;
     margin: 0;
 }
@@ -94,11 +94,12 @@ h2, p, li, a {
 
 .store-menu {
     margin: 40px auto;
-    width: 800px;
 }
 
 .store-menu h1 {
     text-align: center;
+    font-size: 52px;
+    margin-bottom: 5px;
 }
 
 .store-menu h2 {
@@ -119,25 +120,29 @@ h2, p, li, a {
     margin-bottom: 10px;
 }
 
+.items {
+    
+}
+
 .price {
     float: right;
     margin-right: 10px;
 }
 
-.donuts p {
-
+.donuts h2 {
+    background-color: lightcoral;
 }
 
-.pastries p {
-
+.pastries h2 {
+    background-color: darkseagreen;
 }
 
-.cakes p {
-
+.cakes h2 {
+    background-color: lightskyblue;
 }
 
-.drinks p {
-
+.drinks h2 {
+    background-color: sandybrown;
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------- */
