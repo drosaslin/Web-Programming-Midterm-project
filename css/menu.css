@@ -25,6 +25,9 @@ h2, p, li, a {
 
 .header {
     position: relative;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 230px; */
 }
 
 .header img {
@@ -38,6 +41,7 @@ h2, p, li, a {
     position: relative;
     display: inline-block;
     list-style: none;
+    /* padding: 100px 0px 100px 0px; */
     margin: 0;
 }
 
@@ -88,73 +92,53 @@ h2, p, li, a {
 
 /*------------------------------------------CONTENT　HERE--------------------------------------------------------------------------*/
 
-.category-container {
-    display: block;
-    margin: 0 auto;
-    overflow: hidden;
+.store-menu {
+    margin: 40px auto;
+    width: 800px;
 }
 
-.category-item {
-    margin: 40px 0px 5px 0px;
-    float: left;
-    width: 20%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(251, 229, 214);
-    background-color: rgb(58, 183, 169);
-    color: white;
-    padding: 20px 0;
+.store-menu h1 {
     text-align: center;
-    cursor: pointer;
-    font-size: 15px;
 }
 
-.block-container {
-    display: block;
-    height: 986px;
-    margin-bottom: 40px;
+.store-menu h2 {
+    letter-spacing: 5px;
+    color: white;
+    background-color: rgb(58, 183, 169);
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 32px;
+    margin-bottom: 5px;
 }
 
-.product {
-    float: left;
-    padding: 2px;
-    width: 20%;
-    transition: all 0.4s ease-in-out;
+.store-menu p {
+    margin-left: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.hide {
-    transform: scale(0);
-    width: 0;
-    padding: 0;
-    transition: all 0.4s ease-in-out;
+.price {
+    float: right;
+    margin-right: 10px;
 }
 
-.buffer {
-    margin-bottom: 100px;
+.donuts p {
+
 }
 
-.clear {
-    clear: left;
+.pastries p {
+
 }
 
-/* Border Fade */
-.hvr-border-fade {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: box-shadow;
-    transition-property: box-shadow;
-    box-shadow: inset 0 0 0 1px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
-    /* Hack to improve aliasing on mobile/tablet devices */
-  }
-  .hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
-    box-shadow: inset 0 0 0 4px #2098D1, 0 0 1px rgba(0, 0, 0, 0);
-    /* Hack to improve aliasing on mobile/tablet devices */
-  }
+.cakes p {
+
+}
+
+.drinks p {
+
+}
 
 /* ----------------------------------------------------------------------------------------------------------------------------- */
 

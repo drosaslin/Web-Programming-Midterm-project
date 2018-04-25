@@ -86,22 +86,6 @@ h2, p, li, a {
     list-style: none;
 }
 
-.nav-bar.nav-left {
-    /* justify-self: baseline; */
-}
-
-.nav-bar.nav-left .left {
-    /* margin-right: 39px; */
-}
-
-.nav-bar.nav-right {
-    /* justify-self: end; */
-}
-
-.nav-bar.nav-right .right {
-    /* margin-left: 37px; */
-}
-
 .hvr-change-color:hover {
     color: rgb(58, 183, 169);
 }
