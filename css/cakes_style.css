@@ -92,6 +92,68 @@ h2, p, li, a {
 
 /*------------------------------------------CONTENT　HERE--------------------------------------------------------------------------*/
 
+<<<<<<< HEAD
+=======
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 3fr 1fr;
+    grid-row-gap: 25px;
+}
+
+.location, .opening-hours, .social-media, .contact {
+    font-family: Calibri;
+    display: inline-block;
+    width: 124px;
+}
+
+.social-media {
+    width: 77px;
+}
+
+.location{
+    justify-self: right;
+    margin-right: 14px;
+}
+
+.opening-hours {
+    justify-self: center;
+    margin-left: 50px;
+    margin-right: 14px;
+}
+
+.social-media {
+    justify-self: center;
+    margin-right: 34px;
+}
+
+.contact{
+    justify-self: left;
+    margin-right: 14px;
+}
+
+.page-end {
+    grid-column: 1/4;
+}
+
+.h-line {
+    height: 1px;
+    width: 984px;
+    background-color: rgb(251, 229, 214);
+}
+
+.copyright {
+    width: 984px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+} 
+
+>>>>>>> 730ab2f81cf776ac29786f47fc66992ee9c2a06f
 /**************************
         cakes page
 ***************************/
