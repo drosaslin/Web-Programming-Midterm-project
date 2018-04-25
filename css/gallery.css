@@ -88,41 +88,47 @@ h2, p, li, a {
 
 /*------------------------------------------CONTENT　HERE--------------------------------------------------------------------------*/
 
-ul {
-    position: relative;
-    padding: 0;
-    width: 100%;
-    margin: 10px 10px 30px;
+.category-container {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
-ul li {
-    list-style: none;
+.category-item {
     float: left;
-    padding: 10px 20px;
-    color: #fff;
-    border: 1px solid #fff;
-    margin-right: 15px;
-    text-transform: uppercase;
-}
-
-.container {
-    padding: 0 30px;
-    position: relative;
-    padding: 30px;
-}
-
-.container.box {
-    width: 23%;
-    height: 100px;
-    line-height: 100px;
+    width: 20%;
+    background-color: white;
+    padding: 20px 0;
     text-align: center;
-    color: gold;
-    font-size: 2mm;
-    float: left;
-    margin: 10px;
-    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 15px;
 }
 
+.block-container {
+    display: block;
+}
+
+.product {
+    float: left;
+    padding: 2px;
+    width: 20%;
+    transition: all 0.4s ease-in-out;
+}
+
+.hide {
+    transform: scale(0);
+    width: 0;
+    padding: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.buffer {
+    margin-bottom: 100px;
+}
+
+.clear {
+    clear: left;
+}
 /* ----------------------------------------------------------------------------------------------------------------------------- */
 
 .footer-grid {
