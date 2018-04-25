@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="images/donut_tab_icon.png">
     <link href="css/hover.css" rel="stylesheet" media="all">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/contact_us.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/gallery.css" />
     <title>Dino Donuts</title>
 </head>
 
 <body>
     <div class="wrapper">
         <header class="header">
-            <a class="hvr-change-color home" href="index.html">HOME</a>
+            <a class="hvr-change-color home" href="">HOME</a>
             <a class="hvr-change-color about" href="">ABOUT</a>
             <a class="hvr-change-color contact" href="contact_us.html">CONTACT</a>
 
@@ -21,44 +21,40 @@
         
             <a class="hvr-change-color menu" href="">MENU</a>
             <a class="hvr-change-color orders" href="">ORDERS</a>
-            <a class="hvr-change-color gallery" href="gallery.html">GALLERY</a>
+            <a class="hvr-change-color gallery" href="">GALLERY</a>
         </header> 
         
         <!-- ...................................CONTENT HERE......................................................... -->
         
-        <div class="contact-us blue-background">
-            <img class="cupcake-image" src="images/contact_us_images/cupcake.png" alt="">
-            <div class="information">
-                <h2>CONTACT US</h2>
-                <p>Walt Disney World Resort, Orlando, FL 32830, USA</p>
-                <p>sample@sample.com \\ 0987654321</p>
-                <p class="warming-message">We want to hear from you, write us</p>
-            </div>
+        <div class="container">
+            <ul>
+                <li class="button active" data-filter="all">All</li>
+                <li class="button active" data-filter="donuts">Donuts</li>
+                <li class="button active" data-filter="pastries">Pastries</li>
+                <li class="button active" data-filter="cakes">Cakes</li>
+                <li class="button active" data-filter="drinks">Drinks</li>
+            </ul>
 
-            <form class="form" action="">
-                <input class="input" type="text" name="" id="" placeholder="Name*"><br class="br">
-                <input class="input" type="text" name="" id="" placeholder="Email*"><br class="br">
-                <input class="input" type="text" name="" id="" placeholder="Subject*"><br class="br">
-                <textarea class="input message" placeholder="Message*"></textarea><br class="br">
-                <input class="send-button" type="submit" value="Send">
-            </form>
-
-            <div id="map"></div>
-            <script>
-                function initMap() {
-                    var location = {lat: -25.363, lng: 131.044};
-                    var map = new google.maps.Map(document.getElementById("map"), {
-                        zoom: 7,
-                        center: location
-                    });
-                    var marker = new google.maps.Marker({
-                        position: location, 
-                        map: map
-                    })
-                }
-            </script>
-            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgvhbi9wSW3_MbRO3soBt_GNKJo7BUY7c&callback=initMap">
-            </script>
+            <div class="box filter donuts">Donuts</div>
+            <div class="box filter pastries">Pastries</div>
+            <div class="box filter cakes">Cakes</div>
+            <div class="box filter drinks">Drinks</div>
+            <div class="box filter donuts">Donuts</div>
+            <div class="box filter pastries">Pastries</div>
+            <div class="box filter cakes">Cakes</div>
+            <div class="box filter drinks">Drinks</div>
+            <div class="box filter donuts">Donuts</div>
+            <div class="box filter pastries">Pastries</div>
+            <div class="box filter cakes">Cakes</div>
+            <div class="box filter drinks">Drinks</div>
+            <div class="box filter donuts">Donuts</div>
+            <div class="box filter pastries">Pastries</div>
+            <div class="box filter cakes">Cakes</div>
+            <div class="box filter drinks">Drinks</div>
+            <div class="box filter donuts">Donuts</div>
+            <div class="box filter pastries">Pastries</div>
+            <div class="box filter cakes">Cakes</div>
+            <div class="box filter drinks">Drinks</div>
         </div>
 
         <!-- ............................................................................................ -->
